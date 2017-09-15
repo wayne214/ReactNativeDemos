@@ -4,7 +4,9 @@ import android.app.Application;
 
 import com.facebook.react.ReactApplication;
 import com.RNFetchBlob.RNFetchBlobPackage;
+
 import org.wonday.pdf.RCTPdfView;
+
 import com.facebook.react.ReactNativeHost;
 import com.facebook.react.ReactPackage;
 import com.facebook.react.shell.MainReactPackage;
@@ -32,8 +34,8 @@ public class MainApplication extends Application implements ReactApplication {
         protected List<ReactPackage> getPackages() {
             return Arrays.<ReactPackage>asList(
                     new MainReactPackage(),
-            new RNFetchBlobPackage(),
-            new RCTPdfView(),
+                    new RNFetchBlobPackage(),
+                    new RCTPdfView(),
                     new CodePush("p19Zz1OLcDQbWXaVG9EeV6XpyW5jddab8bab-41f9-4d9e-b03c-c8c94c366a1b", MainApplication.this, BuildConfig.DEBUG)
             );
         }
@@ -49,4 +51,5 @@ public class MainApplication extends Application implements ReactApplication {
         super.onCreate();
         SoLoader.init(this, /* native exopackage */ false);
     }
+
 }
