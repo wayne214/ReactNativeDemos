@@ -16,11 +16,15 @@ import codePush from 'react-native-code-push';
 
 import PdfView from './component/pdfView';
 
+import Car from '.././Car.json';
+
+import RNFixedHeaderListView from './component/FixedHeaderListView';
+
 CODE_PUSH_PRODUCTION_KEY = 'p19Zz1OLcDQbWXaVG9EeV6XpyW5jddab8bab-41f9-4d9e-b03c-c8c94c366a1b ';
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        // paddingTop: 50,
+        paddingTop: 50,
         justifyContent: 'center',
         // alignItems: 'center',
     }
@@ -53,12 +57,15 @@ export default class ReactNativeDemos extends Component {
         // });
         let aa = null;
         console.log('aa type =', aa !== null && typeof (aa) === 'object');
+
+        console.log('car data',Car.data);
     }
     render() {
         return (
             <View style={styles.container}>
                 <Text>我是第二版测试更新&&&&&</Text>
-                <PdfView/>
+                {/*<PdfView/>*/}
+                <RNFixedHeaderListView data={Car.data}/>
             </View>
         );
     }
