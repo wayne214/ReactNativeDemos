@@ -93,6 +93,13 @@ def enableProguardInReleaseBuilds = false
 Properties properties = new Properties()
 properties.load(project.rootProject.file('local.properties').newDataInputStream())
 
+
+repositories {
+    maven {
+        url "http://maven.aliyun.com/nexus/content/repositories/releases"
+    }
+}
+
 android {
     compileSdkVersion 23
     buildToolsVersion "23.0.1"
@@ -115,6 +122,14 @@ android {
             include "armeabi-v7a", "x86"
         }
     }
+    signingConfigs {
+        release {
+            storeFile file("my-release-key.keystore")
+            storePassword "junwei214"
+            keyAlias "my-key-alias"
+            keyPassword "junwei214"
+        }
+    }
     buildTypes {
         debug {
             // CodePush updates should not be tested in Debug mode
@@ -127,7 +142,7 @@ android {
             minifyEnabled enableProguardInReleaseBuilds
             proguardFiles getDefaultProguardFile("proguard-android.txt"), "proguard-rules.pro"
             buildConfigField "String", "CODEPUSH_KEY", '"'+properties.getProperty("code_push_key_production")+'"'
-
+            signingConfig signingConfigs.release
         }
     }
     // applicationVariants are e.g. debug, release
@@ -143,6 +158,8 @@ android {
             }
         }
     }
+
+
 }
 
 dependencies {
@@ -153,6 +170,7 @@ dependencies {
     compile "com.android.support:appcompat-v7:23.0.1"
     compile "com.facebook.react:react-native:+"  // From node_modules
     compile 'com.umeng.analytics:analytics:latest.integration'
+    compile 'com.aliyun.ams:alicloud-android-hotfix:3.1.2'
 }
 
 // Run this once to be able to run the application with BUCK

@@ -10,6 +10,7 @@ import {
     Text,
     View,
     StyleSheet,
+    Image,
 } from 'react-native';
 // import AppNavigator from './common/navigator';
 import codePush from 'react-native-code-push';
@@ -19,6 +20,7 @@ import PdfView from './component/pdfView';
 import Car from '.././Car.json';
 
 import RNFixedHeaderListView from './component/FixedHeaderListView';
+import CarImage from '../assets/imgs/m_3_100.png';
 
 CODE_PUSH_PRODUCTION_KEY = 'p19Zz1OLcDQbWXaVG9EeV6XpyW5jddab8bab-41f9-4d9e-b03c-c8c94c366a1b ';
 const styles = StyleSheet.create({
@@ -26,7 +28,7 @@ const styles = StyleSheet.create({
         flex: 1,
         paddingTop: 50,
         justifyContent: 'center',
-        // alignItems: 'center',
+        alignItems: 'center',
     }
 })
 
@@ -63,9 +65,13 @@ export default class ReactNativeDemos extends Component {
     render() {
         return (
             <View style={styles.container}>
-                <Text>我是第二版测试更新&&&&&</Text>
+                <View style={{backgroundColor: 'green'}}>
+                    <Text>我是不一样的烟火</Text>
+                </View>
+                <Text>我是第-----版测试，哈哈</Text>
                 {/*<PdfView/>*/}
-                <RNFixedHeaderListView data={Car.data}/>
+                {/*<RNFixedHeaderListView data={Car.data}/>*/}
+                <Image source={CarImage}/>
             </View>
         );
     }
