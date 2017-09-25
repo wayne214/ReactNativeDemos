@@ -22,13 +22,17 @@ import Car from '.././Car.json';
 import RNFixedHeaderListView from './component/FixedHeaderListView';
 import CarImage from '../assets/imgs/m_3_100.png';
 
+import CameraTest from './component/CameraTest';
+
+import VoiceUtils from './utils/VoiceUtils';
+
 CODE_PUSH_PRODUCTION_KEY = 'p19Zz1OLcDQbWXaVG9EeV6XpyW5jddab8bab-41f9-4d9e-b03c-c8c94c366a1b ';
 const styles = StyleSheet.create({
     container: {
         flex: 1,
         paddingTop: 50,
         justifyContent: 'center',
-        alignItems: 'center',
+        // alignItems: 'center',
     }
 })
 
@@ -61,17 +65,21 @@ export default class ReactNativeDemos extends Component {
         console.log('aa type =', aa !== null && typeof (aa) === 'object');
 
         console.log('car data',Car.data);
+
+        VoiceUtils.speak('您有新货源，快来接单啦', 0);
+
     }
     render() {
         return (
             <View style={styles.container}>
-                <View style={{backgroundColor: 'green'}}>
-                    <Text>我是不一样的烟火</Text>
-                </View>
-                <Text>我是第-----版测试，哈哈</Text>
-                {/*<PdfView/>*/}
-                {/*<RNFixedHeaderListView data={Car.data}/>*/}
-                <Image source={CarImage}/>
+                {/*<View style={{backgroundColor: 'green'}}>*/}
+                    {/*<Text>我是不一样的烟火</Text>*/}
+                {/*</View>*/}
+                {/*<Text>我是第-----版测试，哈哈</Text>*/}
+                {/*/!*<PdfView/>*!/*/}
+                {/*/!*<RNFixedHeaderListView data={Car.data}/>*!/*/}
+                {/*<Image source={CarImage}/>*/}
+                <CameraTest/>
             </View>
         );
     }
