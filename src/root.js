@@ -11,6 +11,7 @@ import {
     View,
     StyleSheet,
     Image,
+    TouchableOpacity
 } from 'react-native';
 // import AppNavigator from './common/navigator';
 import codePush from 'react-native-code-push';
@@ -23,6 +24,8 @@ import RNFixedHeaderListView from './component/FixedHeaderListView';
 import CarImage from '../assets/imgs/m_3_100.png';
 
 import CameraTest from './component/CameraTest';
+
+import RnAndIos from './component/rnAndIos';
 
 import VoiceUtils from './utils/VoiceUtils';
 
@@ -66,8 +69,11 @@ export default class ReactNativeDemos extends Component {
 
         console.log('car data',Car.data);
 
-        VoiceUtils.speak('您有新货源，快来接单啦', 0);
+        // VoiceUtils.speak('您有新货源，快来接单啦', 0);
 
+    }
+    speak(voiceType) {
+        VoiceUtils.speak('您有新货源，快来接单啦', voiceType);
     }
     render() {
         return (
@@ -79,7 +85,14 @@ export default class ReactNativeDemos extends Component {
                 {/*/!*<PdfView/>*!/*/}
                 {/*/!*<RNFixedHeaderListView data={Car.data}/>*!/*/}
                 {/*<Image source={CarImage}/>*/}
-                <CameraTest/>
+                {/*<CameraTest/>*/}
+                <TouchableOpacity onPress={() => {this.speak(0)}}>
+                    <Text>普通女声</Text>
+                </TouchableOpacity>
+                <TouchableOpacity onPress={() => {this.speak(1)}}>
+                    <Text>普通男声</Text>
+                </TouchableOpacity>
+                <RnAndIos/>
             </View>
         );
     }

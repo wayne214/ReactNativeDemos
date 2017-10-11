@@ -1,32 +1,33 @@
 import React, {Component, PropTypes} from 'react';
 import {
-	View,
-	StyleSheet
+    View,
+    StyleSheet
 } from 'react-native';
 
 const styles = StyleSheet.create({
-    container:{
+    container: {
         flex: 1
     },
 });
 
-class ComponentTmpl extends Component{
-	constructor(props) {
-		super(props);
-	}
+class ComponentTmpl extends Component {
+    constructor(props) {
+        super(props);
+    }
 
-	static propTypes = {
-	  style: PropTypes.object,
-	};
-	componentDidMount(){
+    static propTypes = {
+        style: PropTypes.object,
+    };
 
-	}
+    componentDidMount() {
 
-	render() {
-		return (
-			<View style={styles.container}></View>
-		)
-	}
+    }
+
+    render() {
+        return (
+            <View style={styles.container}></View>
+        )
+    }
 }
 
 export default ComponentTmpl;
