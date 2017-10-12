@@ -26,6 +26,7 @@ import CarImage from '../assets/imgs/m_3_100.png';
 import CameraTest from './component/CameraTest';
 
 import RnAndIos from './component/rnAndIos';
+import MapsTest from './component/mapsTest';
 
 import VoiceUtils from './utils/VoiceUtils';
 
@@ -93,6 +94,7 @@ export default class ReactNativeDemos extends Component {
                     <Text>普通男声</Text>
                 </TouchableOpacity>
                 <RnAndIos/>
+                <MapsTest/>
             </View>
         );
     }
