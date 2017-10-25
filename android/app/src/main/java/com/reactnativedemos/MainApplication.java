@@ -86,6 +86,8 @@ public class MainApplication extends Application implements ReactApplication {
                         } else if (code == PatchStatus.CODE_LOAD_RELAUNCH) {
                             // 表明新补丁生效需要重启. 开发者可提示用户或者强制重启;
                             // 建议: 用户可以监听进入后台事件, 然后调用killProcessSafely自杀，以此加快应用补丁，详见1.3.2.3
+                            // 建议调用killProcessSafely，详见1.3.2.3
+                            // SophixManager.getInstance().killProcessSafely();
                         } else if (code == PatchStatus.CODE_LOAD_FAIL) {
                             // 内部引擎异常，推荐此时清空本地补丁，防止失败补丁重复加载
                             // SophixManager.getInstance().cleanPatches();

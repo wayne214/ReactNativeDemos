@@ -26,7 +26,7 @@ class mapsTest extends Component {
 
     }
     reloadMaps() {
-        MapsUtils.turn2MapApp(116.337134,39.999342,'gaode');
+        MapsUtils.turn2MapApp(116.337134,39.999342,'baidu');
     }
     render() {
         return (
