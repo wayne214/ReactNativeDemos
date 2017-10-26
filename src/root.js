@@ -27,6 +27,7 @@ import CameraTest from './component/CameraTest';
 
 import RnAndIos from './component/rnAndIos';
 import MapsTest from './component/mapsTest';
+import LinearGradientView from './component/LinearGradientView';
 
 import VoiceUtils from './utils/VoiceUtils';
 
@@ -36,7 +37,7 @@ const styles = StyleSheet.create({
         flex: 1,
         paddingTop: 50,
         justifyContent: 'center',
-        // alignItems: 'center',
+        alignItems: 'center',
     }
 })
 
@@ -87,14 +88,15 @@ export default class ReactNativeDemos extends Component {
                 {/*/!*<RNFixedHeaderListView data={Car.data}/>*!/*/}
                 {/*<Image source={CarImage}/>*/}
                 {/*<CameraTest/>*/}
-                <TouchableOpacity onPress={() => {this.speak(0)}}>
-                    <Text>普通女声</Text>
-                </TouchableOpacity>
-                <TouchableOpacity onPress={() => {this.speak(1)}}>
-                    <Text>普通男声</Text>
-                </TouchableOpacity>
-                <RnAndIos/>
-                <MapsTest/>
+                {/*<TouchableOpacity onPress={() => {this.speak(0)}}>*/}
+                    {/*<Text>普通女声</Text>*/}
+                {/*</TouchableOpacity>*/}
+                {/*<TouchableOpacity onPress={() => {this.speak(1)}}>*/}
+                    {/*<Text>普通男声</Text>*/}
+                {/*</TouchableOpacity>*/}
+                {/*<RnAndIos/>*/}
+                {/*<MapsTest/>*/}
+                <LinearGradientView/>
             </View>
         );
     }

@@ -4,6 +4,7 @@ import android.app.Application;
 import android.content.Context;
 
 import com.facebook.react.ReactApplication;
+import com.BV.LinearGradient.LinearGradientPackage;
 import com.lwansbrough.RCTCamera.RCTCameraPackage;
 import com.RNFetchBlob.RNFetchBlobPackage;
 
@@ -42,6 +43,7 @@ public class MainApplication extends Application implements ReactApplication {
             return Arrays.<ReactPackage>asList(
                     new VoiceReactPackage(),
                     new MainReactPackage(),
+            new LinearGradientPackage(),
                     new RCTCameraPackage(),
                     new RNFetchBlobPackage(),
                     new RCTPdfView(),
