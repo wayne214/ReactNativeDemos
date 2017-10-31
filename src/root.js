@@ -28,6 +28,7 @@ import CameraTest from './component/CameraTest';
 import RnAndIos from './component/rnAndIos';
 import MapsTest from './component/mapsTest';
 import LinearGradientView from './component/LinearGradientView';
+import RadioButton from './component/radioButtonView';
 
 import VoiceUtils from './utils/VoiceUtils';
 
@@ -96,7 +97,8 @@ export default class ReactNativeDemos extends Component {
                 {/*</TouchableOpacity>*/}
                 {/*<RnAndIos/>*/}
                 {/*<MapsTest/>*/}
-                <LinearGradientView/>
+                {/*<LinearGradientView/>*/}
+                <RadioButton/>
             </View>
         );
     }
