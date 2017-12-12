@@ -1,5 +1,8 @@
 package com.reactnativedemos;
 
+import android.content.Intent;
+import android.os.Bundle;
+
 import com.facebook.react.ReactActivity;
 import com.microsoft.codepush.react.CodePush;
 import com.umeng.analytics.MobclickAgent;
@@ -25,5 +28,11 @@ public class MainActivity extends ReactActivity {
     protected void onPause() {
         super.onPause();
         MobclickAgent.onPause(this);
+    }
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+//        startActivity(new Intent("com.android.settings.TTS_SETTINGS"));
     }
 }

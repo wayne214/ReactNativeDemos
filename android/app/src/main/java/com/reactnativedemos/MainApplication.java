@@ -4,6 +4,7 @@ import android.app.Application;
 import android.content.Context;
 
 import com.facebook.react.ReactApplication;
+import com.react.arron.speech.speechModulePackage;
 import com.BV.LinearGradient.LinearGradientPackage;
 import com.lwansbrough.RCTCamera.RCTCameraPackage;
 import com.RNFetchBlob.RNFetchBlobPackage;
@@ -43,7 +44,8 @@ public class MainApplication extends Application implements ReactApplication {
             return Arrays.<ReactPackage>asList(
                     new VoiceReactPackage(),
                     new MainReactPackage(),
-            new LinearGradientPackage(),
+                    new speechModulePackage(),
+                    new LinearGradientPackage(),
                     new RCTCameraPackage(),
                     new RNFetchBlobPackage(),
                     new RCTPdfView(),
@@ -78,7 +80,7 @@ public class MainApplication extends Application implements ReactApplication {
                 .setAesKey(null)
                 .setAppVersion(appVersion)
                 .setEnableDebug(true)
-                .setSecretMetaData("24629776-1", "246332f071d72a25018d763766587bf6", "MIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDMUNnMW8ciX85JL9mxjpwtu4ZjJS999TC4f6U+T0QICInpb5OAGFgAonj4E7K5WiKGaNIUikF4I1pDuu+2P5l477TGT/ZVu4wV+E1IIoQ7hrEx0n+LgAdMbe43+kak3Bx7R3XPAqbGcJZMgIAaNrF9bLBkaWJ7N7LkfLldwctdYzI1fzLDFkl3TnelkZ1HZU3oEUWN+BT+gIsJl8IANzE+bRN1laylb2cuSu52Cx5px3EUhWTmxUcqEHFTyAeZOJkQvJmn7uVKxPZB7C/8Mfr7VhUM3JFyN+ZYRiIrctGwHOrUu4x3kVJihQOtdnHSxb/9fP+0zSPEdCicPGs6d/ALAgMBAAECggEAfL1v+8Cc13O+shgwxKLY32L6LVXqpPApirsD3ALw+iacbJTebPpv4BNR38PG/jr1kTI18KxoRDzxQyDCcXZq8NcIe3seXkFeyZsLM9s++EjHri9iB31m91a2dh6rOsPX77w1ROnNgKIEYTii/V4fBwBwwR1GLwxWgAFV+tPyoVRyF/2i9ea5sUcTu/TXG8Vun9vOlHucyet4DK4z5UkKmbMTM0PvfXz2Tf+E6Q6ZFfzkRGc7EVX8WxGAucm9vKONqY7tAzxNpkIIkKP9tF4/dIkIoNFotxiUxzwHxrAicV1wxyKLKfe53SoFXd5V2P5C1LuklCVx41djBnnlrb1ZIQKBgQD8aXwLLinzhqtSkSAvLLyqAFFOzWTRgHZM7xEr2df4XOGwoLs/nKpgSsna5V9faPZaUlbfMcURCcPeTPvb3kZC2CUSfdFDRDQXDR2dA7ZgWHSykTNMK525I1zCttQGSlbjCSnfpBadffWaEM5tBp/uRF4SlvltJa8Rhq11Iby0tQKBgQDPOFiqT23i+rCtPLjDCog5nLKWzgXVE8dvHKk8Ho9wWP+r/CSZtZd5UZCrTF49JN0aVUojyYTllJQoSRdqUFiqcDNEM3/tZ3xuYNJ5h5He2Pq9P0agw95N3Rlj8UFmoYhJvjBIF2iQD0zUqlMUYzFjWZGfZNu8gFupBnqJo3/JvwKBgCqwfHY3nIi/YgJY4SSZYF8wJpA5VK/KFjf0xuavtUMgEluZE5IyoO4gN/t5h6PPULr96gtdk4LKMAJM6tvIwAFWJQ73kIjb5CNx6GxB0HqC+1moDRD433gMbwfPfBSERiWnyxkz209PmlYwOXlfAXV+wppKRm0bTnycVoHU7uFxAoGBAMxKzcciRcCnzDUOj0zifkjmPn9EoCVguZbGl+YIbvuhEncZP3A2wh4+FrV6tdHsHPtQKKa9jwLUB3jsDmSmz7NAqJpNd4qzIs6jL/3WdS5RlmmrD1OBpxH2r4iDmim3iOjC01DPmyujmehz/zIzVMaQ0GtngOcHWNZ756T4hwx7AoGATY/VatbowXCmzlWOVMdtLCf2p+tAk0DbG7OrsNSZLoJs47BoC3VfclHP5dhV7VwtMsRRLEqwUOmlU/2wITlrKZC/XBSvmkCDCs7z0+P139Bi2MoKs1oMEeEUxCxC+2qBQH5ZKKHTDd9IGuk0etAbSQaFNhSiHKVV1XohDsUqKWY=")
+                .setSecretMetaData("24687718-1", "eb6a7d9f0a8d36867f22c457ae4fb02d", "MIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCe9NyUJ0WjmNH9VV8AKClCe8nNTyYAB7H742JEKPhs1XLnf1i9uhjAhP2F7SVgCWSEz7xFHpJ4A/AEX8tywyeXfF6QdqpYHzB8OcO8MD/ka/iIaODleNkqxv5XzBCI00X6N7bXSZWpBz2AiZwWLGXrhg+rrBLQGcFri1+2VPHFwHDu2DxA1vC3rhDF8Pdib2XeaiGIcx94O9lCVu2p9W1QC4gV/8JY25PVwmNi4o6q47HvDNS66cC1vp0r4SRT1J8fg118QSPC6H60pAJgIrcjBc++uU/aXVf5BapFNpHZixfxaLUaKXBMytLh+VeCLyFRQYGBaViSaQaKOzSbsfivAgMBAAECggEALhJEeIBlc8RQYL/EuDPruYRNej9NgUa5tIs0KRNC5bB8DFLhsqPklrA1FwMkCRDP3JqlM9dnlnd1sp7dRdcAe6ylb/Ok7cOkduz7KWlGq3sL3uWfAYOkVfy1LVdNF4s8xggt63o9cW9SyRWZcufNZpVFp3lJPp2obPZJeHxoUus9f9LWWfGunVmPAy0Xy+V2IxWKFe00LmBaFRA1ExdvOqZfLWOMYirK7M6FpVuwDFuSQ3fdBhjolllmO+yvZCLv7tQS3Y4iaa4jNTsGtB9kGmGiSD16VKdU55u83RXkR5OsjWMji1Z4qZegirtBEfc0Re97dIhcURFLoOaQUI3OQQKBgQDfv3flxNx4UbT1EuMOBmQLpNEEYkGRzAHu2C3K53T044Mi8xLx+IBPUqq+0woEVutyGN0LobWSM3PcBuQm9nxVdSIFYDfSEI4DbTz3wxbx/aNzRKlcImcno3tBBWDdWsf4KnnhnkneuUOZeQtQAg9g5PfcSn1IQZ6Fb5BPmavMoQKBgQC13oWZmpWxipagDKZJFqWIETKeAx81nkGzB/mj4Y9bwbpNt1p+p4Ac9jjpePvmLLqp3IvUEcde6mrSigqmv7X0HYCu0ER1KGShpMUE4jW4wAMU7YnYi/aLj/Svq5aqyQW6E7r3di+K5AYY24eJoje850+mpJa9zV3GLB4z7dHzTwKBgQCNEAOhQrnUyX6Su/OWVgUhKin035WDO+FEGdrU/5PHCOEWWbVqBEewuueXIyo/jiUma/KAcNUudW3oHBgfUGsW3aAzT3Qh5foCww4bDk4bBtPTykgUJERwwyrj1WY6aA+GsBDjY44i8x5hVeUB7iqP5gs2QWg289fjPHD5HmMnwQKBgAWDmKNel3lJjWWO3J/MqvokI1e9Gn4irTVDYaNBXHpYtlBS5dB/PZgjMviJLYH+Cy7JPAgS/et3ygNWIhqKJ3ceSd+C+wBeWCa6eyq5vQ077Rv+U7aYD8KNe8qzth65d437uSh1kd1xKmoohcR7gZsdnEGeLd/VUSmH/uZuKHZrAoGBAKDmKcDyDikbEf5KRe93uH6kzQeRRGr9dcLFvkdbZN0sj1jw6IQuP709T14y62VTEsT1u4ZbYxZHc0nc94iKbRoGnDWbU4dQPuM9KdMtmu8e+5GBZSnFL0N13kgGXJMYmC75iuFVlJOjGTXV7flnNQBZxlKiO0EW0nMVVZdkytB/")
                 .setPatchLoadStatusStub(new PatchLoadStatusListener() {
                     @Override
                     public void onLoad(final int mode, final int code, final String info, final int handlePatchVersion) {

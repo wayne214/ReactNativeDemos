@@ -5,6 +5,7 @@
 	};
 	objectVersion = 46;
 	objects = {
+
 /* Begin PBXBuildFile section */
 		00C302E51ABCBA2D00DB3ED1 /* libRCTActionSheet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302AC1ABCB8CE00DB3ED1 /* libRCTActionSheet.a */; };
 		00C302E71ABCBA2D00DB3ED1 /* libRCTGeolocation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302BA1ABCB90400DB3ED1 /* libRCTGeolocation.a */; };
@@ -22,6 +23,9 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		140ED2AC1D01E1AD002B40FF /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
 		146834051AC3E58100842450 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
+		1CCFF7DBDF8F47B88DA11CBE /* libBVLinearGradient.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 65D056EA5EBC4CB393E5527F /* libBVLinearGradient.a */; };
+		23EC5BE648B1470697B7CAB7 /* libLRDRCTSimpleToast.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F141B51901174946AB454B60 /* libLRDRCTSimpleToast.a */; };
+		25DBC192B5AA474589EE659E /* libTextToSpeech.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C6F6B0F683EC413BBB4E5C8C /* libTextToSpeech.a */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
@@ -39,10 +43,14 @@
 		7D2727A182774434A4F8C5DE /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B42A4EECA4B41ECB4E73451 /* libz.tbd */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
 		8FA566C85F174CA981119341 /* libCodePush.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F98BEFD2E0454399B1EBBDA2 /* libCodePush.a */; };
-		B00EE7B71F78F50F001AE54E /* .gitIgnore in Resources */ = {isa = PBXBuildFile; fileRef = B00EE7A01F78F50F001AE54E /* .gitIgnore */; };
-		B00EE7BE1F78F65E001AE54E /* Modules in Resources */ = {isa = PBXBuildFile; fileRef = B00EE7BD1F78F65E001AE54E /* Modules */; };
+		9F53DA2DB1A4401A9ED93300 /* libspeech.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F3A32B7B68AE4E748840D1DF /* libspeech.a */; };
+		B0227AFF1FBEE57B002D684A /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B0227AFE1FBEE57B002D684A /* libc++.tbd */; };
+		B0227B011FBEE5A8002D684A /* libz.1.2.5.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B0227B001FBEE5A8002D684A /* libz.1.2.5.tbd */; };
+		B0227B031FBEE5B1002D684A /* libiconv.2.4.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B0227B021FBEE5B1002D684A /* libiconv.2.4.0.tbd */; };
+		B0227B061FBEE5C6002D684A /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0227B041FBEE5BA002D684A /* AudioToolbox.framework */; };
+		B0227B081FBEE5D0002D684A /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0227B071FBEE5D0002D684A /* AVFoundation.framework */; };
+		B0227B0A1FBEE5E9002D684A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0227B091FBEE5E9002D684A /* SystemConfiguration.framework */; };
 		B024C40B1F8CAF1700F1D0A9 /* CalendarManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B024C40A1F8CAF1700F1D0A9 /* CalendarManager.m */; };
-		B0C745611F78E03600CD9491 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0C745601F78E03600CD9491 /* ViewController.m */; };
 		B0C745641F78E1E100CD9491 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B0C745631F78E1E100CD9491 /* libc++.tbd */; };
 		B0C745661F78E1EE00CD9491 /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B0C745651F78E1EE00CD9491 /* libstdc++.6.0.9.tbd */; };
 		B0C745681F78E1F800CD9491 /* libz.1.2.5.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B0C745671F78E1F800CD9491 /* libz.1.2.5.tbd */; };
@@ -52,8 +60,6 @@
 		B0C745701F78E21F00CD9491 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0C7456F1F78E21F00CD9491 /* CoreTelephony.framework */; };
 		B0C745721F78E22A00CD9491 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0C745711F78E22A00CD9491 /* SystemConfiguration.framework */; };
 		B3431FE563094C9DBF4388DB /* libRCTCamera.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DEDF7485ABFC4D938D2FD594 /* libRCTCamera.a */; };
-		1CCFF7DBDF8F47B88DA11CBE /* libBVLinearGradient.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 65D056EA5EBC4CB393E5527F /* libBVLinearGradient.a */; };
-		23EC5BE648B1470697B7CAB7 /* libLRDRCTSimpleToast.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F141B51901174946AB454B60 /* libLRDRCTSimpleToast.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -246,6 +252,41 @@
 			remoteGlobalIDString = 58B5119B1A9E6C1200147676;
 			remoteInfo = RCTText;
 		};
+		B0227AC91FBEE205002D684A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66A7DAC63CBF43B48234EFC6 /* BVLinearGradient.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 134814201AA4EA6300B7C361;
+			remoteInfo = BVLinearGradient;
+		};
+		B0227ACB1FBEE205002D684A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66A7DAC63CBF43B48234EFC6 /* BVLinearGradient.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 64AA15081EF7F30100718508;
+			remoteInfo = "BVLinearGradient-tvOS";
+		};
+		B0227AF21FBEE205002D684A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D7B9B9504FBF442BB77205E8 /* speech.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B1C5AE211DC9C8F000CF1D49;
+			remoteInfo = speech;
+		};
+		B0227AF71FBEE205002D684A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 092295902A5D49D58F4C273F /* TextToSpeech.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3A6FB2081D99E12200593599;
+			remoteInfo = TextToSpeech;
+		};
+		B0227AFC1FBEE205002D684A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E82F3CA4D841421C8BEB89F3 /* LRDRCTSimpleToast.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 15209BEF1D250F63000D0F44;
+			remoteInfo = LRDRCTSimpleToast;
+		};
 		B0C745201F78DC8800CD9491 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 6FD6BE50B26E492B9D7E7656 /* CodePush.xcodeproj */;
@@ -321,6 +362,7 @@
 		00E356EE1AD99517003FC87E /* ReactNativeDemosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReactNativeDemosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* ReactNativeDemosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReactNativeDemosTests.m; sourceTree = "<group>"; };
+		092295902A5D49D58F4C273F /* TextToSpeech.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = TextToSpeech.xcodeproj; path = "../node_modules/react-native-tts/ios/TextToSpeech.xcodeproj"; sourceTree = "<group>"; };
 		139105B61AF99BAD00B5F7CC /* RCTSettings.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTSettings.xcodeproj; path = "../node_modules/react-native/Libraries/Settings/RCTSettings.xcodeproj"; sourceTree = "<group>"; };
 		139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTWebSocket.xcodeproj; path = "../node_modules/react-native/Libraries/WebSocket/RCTWebSocket.xcodeproj"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* ReactNativeDemos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReactNativeDemos.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -335,36 +377,20 @@
 		2D02E47B1E0B4A5D006451C7 /* ReactNativeDemos-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ReactNativeDemos-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* ReactNativeDemos-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ReactNativeDemos-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTAnimation.xcodeproj; path = "../node_modules/react-native/Libraries/NativeAnimation/RCTAnimation.xcodeproj"; sourceTree = "<group>"; };
+		65D056EA5EBC4CB393E5527F /* libBVLinearGradient.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libBVLinearGradient.a; sourceTree = "<group>"; };
+		66A7DAC63CBF43B48234EFC6 /* BVLinearGradient.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = BVLinearGradient.xcodeproj; path = "../node_modules/react-native-linear-gradient/BVLinearGradient.xcodeproj"; sourceTree = "<group>"; };
 		6FD6BE50B26E492B9D7E7656 /* CodePush.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = CodePush.xcodeproj; path = "../node_modules/react-native-code-push/ios/CodePush.xcodeproj"; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		7B42A4EECA4B41ECB4E73451 /* libz.tbd */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
-		B00EE7A01F78F50F001AE54E /* .gitIgnore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitIgnore; sourceTree = "<group>"; };
-		B00EE7A11F78F50F001AE54E /* BDSASRDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDSASRDefines.h; sourceTree = "<group>"; };
-		B00EE7A21F78F50F001AE54E /* BDSASRParameters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDSASRParameters.h; sourceTree = "<group>"; };
-		B00EE7A31F78F50F001AE54E /* BDSEventManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDSEventManager.h; sourceTree = "<group>"; };
-		B00EE7A41F78F50F001AE54E /* BDSUploaderDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDSUploaderDefines.h; sourceTree = "<group>"; };
-		B00EE7A51F78F50F001AE54E /* BDSUploaderParameters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDSUploaderParameters.h; sourceTree = "<group>"; };
-		B00EE7A61F78F50F001AE54E /* BDSWakeupDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDSWakeupDefines.h; sourceTree = "<group>"; };
-		B00EE7A71F78F50F001AE54E /* BDSWakeupParameters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDSWakeupParameters.h; sourceTree = "<group>"; };
-		B00EE7A91F78F50F001AE54E /* BDRecognizerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDRecognizerViewController.h; sourceTree = "<group>"; };
-		B00EE7AA1F78F50F001AE54E /* BDRecognizerViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDRecognizerViewDelegate.h; sourceTree = "<group>"; };
-		B00EE7AB1F78F50F001AE54E /* BDRecognizerViewParamsObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDRecognizerViewParamsObject.h; sourceTree = "<group>"; };
-		B00EE7AC1F78F50F001AE54E /* BDTheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDTheme.h; sourceTree = "<group>"; };
-		B00EE7AE1F78F50F001AE54E /* BDS_EttsModelManagerInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDS_EttsModelManagerInterface.h; sourceTree = "<group>"; };
-		B00EE7AF1F78F50F001AE54E /* BDSBuiltInPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDSBuiltInPlayer.h; sourceTree = "<group>"; };
-		B00EE7B01F78F50F001AE54E /* BDSMixedModeSynthesizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDSMixedModeSynthesizer.h; sourceTree = "<group>"; };
-		B00EE7B11F78F50F001AE54E /* BDSSpeechSynthesizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDSSpeechSynthesizer.h; sourceTree = "<group>"; };
-		B00EE7B21F78F50F001AE54E /* BDSSpeechSynthesizerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDSSpeechSynthesizerDelegate.h; sourceTree = "<group>"; };
-		B00EE7B31F78F50F001AE54E /* BDSSpeechSynthesizerErrors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDSSpeechSynthesizerErrors.h; sourceTree = "<group>"; };
-		B00EE7B41F78F50F001AE54E /* BDSSpeechSynthesizerParams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDSSpeechSynthesizerParams.h; sourceTree = "<group>"; };
-		B00EE7B51F78F50F001AE54E /* BDSSynthesizerLogLevel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDSSynthesizerLogLevel.h; sourceTree = "<group>"; };
-		B00EE7B61F78F50F001AE54E /* BDSTTSEventManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDSTTSEventManager.h; sourceTree = "<group>"; };
-		B00EE7BD1F78F65E001AE54E /* Modules */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Modules; path = ../../../../Downloads/TTS_v2.2.6.0/BDSClientSample/BDSClientSample/Modules; sourceTree = "<group>"; };
+		B0227AFE1FBEE57B002D684A /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS10.2.sdk/usr/lib/libc++.tbd"; sourceTree = DEVELOPER_DIR; };
+		B0227B001FBEE5A8002D684A /* libz.1.2.5.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.2.5.tbd; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS10.2.sdk/usr/lib/libz.1.2.5.tbd; sourceTree = DEVELOPER_DIR; };
+		B0227B021FBEE5B1002D684A /* libiconv.2.4.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.2.4.0.tbd; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS10.2.sdk/usr/lib/libiconv.2.4.0.tbd; sourceTree = DEVELOPER_DIR; };
+		B0227B041FBEE5BA002D684A /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS10.2.sdk/System/Library/Frameworks/AudioToolbox.framework; sourceTree = DEVELOPER_DIR; };
+		B0227B071FBEE5D0002D684A /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS10.2.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		B0227B091FBEE5E9002D684A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS10.2.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
 		B024C3E71F8CADFE00F1D0A9 /* CalendarManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalendarManager.h; sourceTree = "<group>"; };
 		B024C40A1F8CAF1700F1D0A9 /* CalendarManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarManager.m; sourceTree = "<group>"; };
-		B0C745601F78E03600CD9491 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		B0C745621F78E06B00CD9491 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		B0C745631F78E1E100CD9491 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 		B0C745651F78E1EE00CD9491 /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
 		B0C745671F78E1F800CD9491 /* libz.1.2.5.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.2.5.tbd; path = usr/lib/libz.1.2.5.tbd; sourceTree = SDKROOT; };
@@ -373,16 +399,17 @@
 		B0C7456D1F78E21600CD9491 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		B0C7456F1F78E21F00CD9491 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		B0C745711F78E22A00CD9491 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		C6F6B0F683EC413BBB4E5C8C /* libTextToSpeech.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libTextToSpeech.a; sourceTree = "<group>"; };
 		CC0814FFC63046428CFECABD /* libRCTPdf.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRCTPdf.a; sourceTree = "<group>"; };
 		CEEE8DEFEEA44EF48163FE75 /* libRNFetchBlob.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNFetchBlob.a; sourceTree = "<group>"; };
 		D633F7E894D5487289ABA1B3 /* RNFetchBlob.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNFetchBlob.xcodeproj; path = "../node_modules/react-native-fetch-blob/ios/RNFetchBlob.xcodeproj"; sourceTree = "<group>"; };
+		D7B9B9504FBF442BB77205E8 /* speech.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = speech.xcodeproj; path = "../node_modules/native-speech/ios/speech/speech.xcodeproj"; sourceTree = "<group>"; };
 		DEDF7485ABFC4D938D2FD594 /* libRCTCamera.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRCTCamera.a; sourceTree = "<group>"; };
+		E82F3CA4D841421C8BEB89F3 /* LRDRCTSimpleToast.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = LRDRCTSimpleToast.xcodeproj; path = "../node_modules/react-native-simple-toast/ios/LRDRCTSimpleToast.xcodeproj"; sourceTree = "<group>"; };
 		EE3BCA1BDC15437490C1D507 /* RCTCamera.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RCTCamera.xcodeproj; path = "../node_modules/react-native-camera/ios/RCTCamera.xcodeproj"; sourceTree = "<group>"; };
+		F141B51901174946AB454B60 /* libLRDRCTSimpleToast.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libLRDRCTSimpleToast.a; sourceTree = "<group>"; };
+		F3A32B7B68AE4E748840D1DF /* libspeech.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libspeech.a; sourceTree = "<group>"; };
 		F98BEFD2E0454399B1EBBDA2 /* libCodePush.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libCodePush.a; sourceTree = "<group>"; };
-		66A7DAC63CBF43B48234EFC6 /* BVLinearGradient.xcodeproj */ = {isa = PBXFileReference; name = "BVLinearGradient.xcodeproj"; path = "../node_modules/react-native-linear-gradient/BVLinearGradient.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
-		65D056EA5EBC4CB393E5527F /* libBVLinearGradient.a */ = {isa = PBXFileReference; name = "libBVLinearGradient.a"; path = "libBVLinearGradient.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
-		E82F3CA4D841421C8BEB89F3 /* LRDRCTSimpleToast.xcodeproj */ = {isa = PBXFileReference; name = "LRDRCTSimpleToast.xcodeproj"; path = "../node_modules/react-native-simple-toast/ios/LRDRCTSimpleToast.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
-		F141B51901174946AB454B60 /* libLRDRCTSimpleToast.a */ = {isa = PBXFileReference; name = "libLRDRCTSimpleToast.a"; path = "libLRDRCTSimpleToast.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -424,6 +451,8 @@
 				B3431FE563094C9DBF4388DB /* libRCTCamera.a in Frameworks */,
 				1CCFF7DBDF8F47B88DA11CBE /* libBVLinearGradient.a in Frameworks */,
 				23EC5BE648B1470697B7CAB7 /* libLRDRCTSimpleToast.a in Frameworks */,
+				9F53DA2DB1A4401A9ED93300 /* libspeech.a in Frameworks */,
+				25DBC192B5AA474589EE659E /* libTextToSpeech.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,6 +460,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0227B0A1FBEE5E9002D684A /* SystemConfiguration.framework in Frameworks */,
+				B0227B081FBEE5D0002D684A /* AVFoundation.framework in Frameworks */,
+				B0227B061FBEE5C6002D684A /* AudioToolbox.framework in Frameworks */,
+				B0227B031FBEE5B1002D684A /* libiconv.2.4.0.tbd in Frameworks */,
+				B0227B011FBEE5A8002D684A /* libz.1.2.5.tbd in Frameworks */,
+				B0227AFF1FBEE57B002D684A /* libc++.tbd in Frameworks */,
 				2D02E4C91E0B4AEC006451C7 /* libReact.a in Frameworks */,
 				2D02E4C21E0B4AEC006451C7 /* libRCTAnimation.a in Frameworks */,
 				2D02E4C31E0B4AEC006451C7 /* libRCTImage-tvOS.a in Frameworks */,
@@ -532,7 +567,6 @@
 		13B07FAE1A68108700A75B9A /* ReactNativeDemos */ = {
 			isa = PBXGroup;
 			children = (
-				B00EE7BD1F78F65E001AE54E /* Modules */,
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
@@ -540,8 +574,6 @@
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB71A68108700A75B9A /* main.m */,
-				B0C745601F78E03600CD9491 /* ViewController.m */,
-				B0C745621F78E06B00CD9491 /* ViewController.h */,
 				B024C3E71F8CADFE00F1D0A9 /* CalendarManager.h */,
 				B024C40A1F8CAF1700F1D0A9 /* CalendarManager.m */,
 			);
@@ -570,6 +602,12 @@
 		3ABED0225B454DB19A53DABD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B0227B091FBEE5E9002D684A /* SystemConfiguration.framework */,
+				B0227B071FBEE5D0002D684A /* AVFoundation.framework */,
+				B0227B041FBEE5BA002D684A /* AudioToolbox.framework */,
+				B0227B021FBEE5B1002D684A /* libiconv.2.4.0.tbd */,
+				B0227B001FBEE5A8002D684A /* libz.1.2.5.tbd */,
+				B0227AFE1FBEE57B002D684A /* libc++.tbd */,
 				B0C745711F78E22A00CD9491 /* SystemConfiguration.framework */,
 				B0C7456F1F78E21F00CD9491 /* CoreTelephony.framework */,
 				B0C7456D1F78E21600CD9491 /* AVFoundation.framework */,
@@ -621,6 +659,8 @@
 				EE3BCA1BDC15437490C1D507 /* RCTCamera.xcodeproj */,
 				66A7DAC63CBF43B48234EFC6 /* BVLinearGradient.xcodeproj */,
 				E82F3CA4D841421C8BEB89F3 /* LRDRCTSimpleToast.xcodeproj */,
+				D7B9B9504FBF442BB77205E8 /* speech.xcodeproj */,
+				092295902A5D49D58F4C273F /* TextToSpeech.xcodeproj */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
@@ -637,7 +677,6 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				B00EE79E1F78F50F001AE54E /* BDSClientHeaders */,
 				13B07FAE1A68108700A75B9A /* ReactNativeDemos */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* ReactNativeDemosTests */,
@@ -659,57 +698,37 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B00EE79E1F78F50F001AE54E /* BDSClientHeaders */ = {
+		B0227AC51FBEE205002D684A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B00EE79F1F78F50F001AE54E /* ASR */,
-				B00EE7AD1F78F50F001AE54E /* TTS */,
+				B0227ACA1FBEE205002D684A /* libBVLinearGradient.a */,
+				B0227ACC1FBEE205002D684A /* libBVLinearGradient.a */,
 			);
-			name = BDSClientHeaders;
-			path = ../../../../Downloads/TTS_v2.2.6.0/BDSClientHeaders;
+			name = Products;
 			sourceTree = "<group>";
 		};
-		B00EE79F1F78F50F001AE54E /* ASR */ = {
+		B0227AEF1FBEE205002D684A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B00EE7A01F78F50F001AE54E /* .gitIgnore */,
-				B00EE7A11F78F50F001AE54E /* BDSASRDefines.h */,
-				B00EE7A21F78F50F001AE54E /* BDSASRParameters.h */,
-				B00EE7A31F78F50F001AE54E /* BDSEventManager.h */,
-				B00EE7A41F78F50F001AE54E /* BDSUploaderDefines.h */,
-				B00EE7A51F78F50F001AE54E /* BDSUploaderParameters.h */,
-				B00EE7A61F78F50F001AE54E /* BDSWakeupDefines.h */,
-				B00EE7A71F78F50F001AE54E /* BDSWakeupParameters.h */,
-				B00EE7A81F78F50F001AE54E /* UIHeaders */,
+				B0227AF31FBEE205002D684A /* libspeech.a */,
 			);
-			path = ASR;
+			name = Products;
 			sourceTree = "<group>";
 		};
-		B00EE7A81F78F50F001AE54E /* UIHeaders */ = {
+		B0227AF41FBEE205002D684A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B00EE7A91F78F50F001AE54E /* BDRecognizerViewController.h */,
-				B00EE7AA1F78F50F001AE54E /* BDRecognizerViewDelegate.h */,
-				B00EE7AB1F78F50F001AE54E /* BDRecognizerViewParamsObject.h */,
-				B00EE7AC1F78F50F001AE54E /* BDTheme.h */,
+				B0227AF81FBEE205002D684A /* libTextToSpeech.a */,
 			);
-			path = UIHeaders;
+			name = Products;
 			sourceTree = "<group>";
 		};
-		B00EE7AD1F78F50F001AE54E /* TTS */ = {
+		B0227AF91FBEE205002D684A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B00EE7AE1F78F50F001AE54E /* BDS_EttsModelManagerInterface.h */,
-				B00EE7AF1F78F50F001AE54E /* BDSBuiltInPlayer.h */,
-				B00EE7B01F78F50F001AE54E /* BDSMixedModeSynthesizer.h */,
-				B00EE7B11F78F50F001AE54E /* BDSSpeechSynthesizer.h */,
-				B00EE7B21F78F50F001AE54E /* BDSSpeechSynthesizerDelegate.h */,
-				B00EE7B31F78F50F001AE54E /* BDSSpeechSynthesizerErrors.h */,
-				B00EE7B41F78F50F001AE54E /* BDSSpeechSynthesizerParams.h */,
-				B00EE7B51F78F50F001AE54E /* BDSSynthesizerLogLevel.h */,
-				B00EE7B61F78F50F001AE54E /* BDSTTSEventManager.h */,
+				B0227AFD1FBEE205002D684A /* libLRDRCTSimpleToast.a */,
 			);
-			path = TTS;
+			name = Products;
 			sourceTree = "<group>";
 		};
 		B0C745161F78DC8800CD9491 /* Products */ = {
@@ -861,8 +880,16 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
+					ProductGroup = B0227AC51FBEE205002D684A /* Products */;
+					ProjectRef = 66A7DAC63CBF43B48234EFC6 /* BVLinearGradient.xcodeproj */;
+				},
+				{
 					ProductGroup = B0C745161F78DC8800CD9491 /* Products */;
 					ProjectRef = 6FD6BE50B26E492B9D7E7656 /* CodePush.xcodeproj */;
+				},
+				{
+					ProductGroup = B0227AF91FBEE205002D684A /* Products */;
+					ProjectRef = E82F3CA4D841421C8BEB89F3 /* LRDRCTSimpleToast.xcodeproj */;
 				},
 				{
 					ProductGroup = 00C302A81ABCB8CE00DB3ED1 /* Products */;
@@ -919,6 +946,14 @@
 				{
 					ProductGroup = B0C7451A1F78DC8800CD9491 /* Products */;
 					ProjectRef = D633F7E894D5487289ABA1B3 /* RNFetchBlob.xcodeproj */;
+				},
+				{
+					ProductGroup = B0227AEF1FBEE205002D684A /* Products */;
+					ProjectRef = D7B9B9504FBF442BB77205E8 /* speech.xcodeproj */;
+				},
+				{
+					ProductGroup = B0227AF41FBEE205002D684A /* Products */;
+					ProjectRef = 092295902A5D49D58F4C273F /* TextToSpeech.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -1107,6 +1142,41 @@
 			remoteRef = 832341B41AAA6A8300B99B32 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
+		B0227ACA1FBEE205002D684A /* libBVLinearGradient.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libBVLinearGradient.a;
+			remoteRef = B0227AC91FBEE205002D684A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B0227ACC1FBEE205002D684A /* libBVLinearGradient.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libBVLinearGradient.a;
+			remoteRef = B0227ACB1FBEE205002D684A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B0227AF31FBEE205002D684A /* libspeech.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libspeech.a;
+			remoteRef = B0227AF21FBEE205002D684A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B0227AF81FBEE205002D684A /* libTextToSpeech.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libTextToSpeech.a;
+			remoteRef = B0227AF71FBEE205002D684A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B0227AFD1FBEE205002D684A /* libLRDRCTSimpleToast.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libLRDRCTSimpleToast.a;
+			remoteRef = B0227AFC1FBEE205002D684A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		B0C745211F78DC8800CD9491 /* libCodePush.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
@@ -1184,10 +1254,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B00EE7BE1F78F65E001AE54E /* Modules in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
-				B00EE7B71F78F50F001AE54E /* .gitIgnore in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1252,7 +1320,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0C745611F78E03600CD9491 /* ViewController.m in Sources */,
 				B024C40B1F8CAF1700F1D0A9 /* CalendarManager.m in Sources */,
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
@@ -1319,12 +1386,16 @@
 					"$(SRCROOT)/../node_modules/react-native-camera/ios",
 					"$(SRCROOT)/../node_modules/react-native-linear-gradient/BVLinearGradient",
 					"$(SRCROOT)/../node_modules/react-native-simple-toast/ios/LRDRCTSimpleToast",
+					"$(SRCROOT)/../node_modules/native-speech/ios/speech/**",
+					"$(SRCROOT)/../node_modules/react-native-tts/ios/TextToSpeech",
 				);
 				INFOPLIST_FILE = ReactNativeDemosTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
@@ -1353,12 +1424,16 @@
 					"$(SRCROOT)/../node_modules/react-native-camera/ios",
 					"$(SRCROOT)/../node_modules/react-native-linear-gradient/BVLinearGradient",
 					"$(SRCROOT)/../node_modules/react-native-simple-toast/ios/LRDRCTSimpleToast",
+					"$(SRCROOT)/../node_modules/native-speech/ios/speech/**",
+					"$(SRCROOT)/../node_modules/react-native-tts/ios/TextToSpeech",
 				);
 				INFOPLIST_FILE = ReactNativeDemosTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
@@ -1389,6 +1464,8 @@
 					"$(SRCROOT)/../node_modules/react-native-camera/ios",
 					"$(SRCROOT)/../node_modules/react-native-linear-gradient/BVLinearGradient",
 					"$(SRCROOT)/../node_modules/react-native-simple-toast/ios/LRDRCTSimpleToast",
+					"$(SRCROOT)/../node_modules/native-speech/ios/speech/**",
+					"$(SRCROOT)/../node_modules/react-native-tts/ios/TextToSpeech",
 				);
 				INFOPLIST_FILE = ReactNativeDemos/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1416,6 +1493,8 @@
 					"$(SRCROOT)/../node_modules/react-native-camera/ios",
 					"$(SRCROOT)/../node_modules/react-native-linear-gradient/BVLinearGradient",
 					"$(SRCROOT)/../node_modules/react-native-simple-toast/ios/LRDRCTSimpleToast",
+					"$(SRCROOT)/../node_modules/native-speech/ios/speech/**",
+					"$(SRCROOT)/../node_modules/react-native-tts/ios/TextToSpeech",
 				);
 				INFOPLIST_FILE = ReactNativeDemos/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1450,11 +1529,15 @@
 					"$(SRCROOT)/../node_modules/react-native-camera/ios",
 					"$(SRCROOT)/../node_modules/react-native-linear-gradient/BVLinearGradient",
 					"$(SRCROOT)/../node_modules/react-native-simple-toast/ios/LRDRCTSimpleToast",
+					"$(SRCROOT)/../node_modules/native-speech/ios/speech/**",
+					"$(SRCROOT)/../node_modules/react-native-tts/ios/TextToSpeech",
 				);
 				INFOPLIST_FILE = "ReactNativeDemos-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
@@ -1470,7 +1553,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 9.2;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
 			};
 			name = Debug;
 		};
@@ -1494,11 +1577,15 @@
 					"$(SRCROOT)/../node_modules/react-native-camera/ios",
 					"$(SRCROOT)/../node_modules/react-native-linear-gradient/BVLinearGradient",
 					"$(SRCROOT)/../node_modules/react-native-simple-toast/ios/LRDRCTSimpleToast",
+					"$(SRCROOT)/../node_modules/native-speech/ios/speech/**",
+					"$(SRCROOT)/../node_modules/react-native-tts/ios/TextToSpeech",
 				);
 				INFOPLIST_FILE = "ReactNativeDemos-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
@@ -1514,7 +1601,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 9.2;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
 			};
 			name = Release;
 		};
@@ -1533,6 +1620,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
@@ -1563,6 +1652,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
